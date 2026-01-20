@@ -66,7 +66,7 @@ export default function Navbar() {
             <img
               src={Logo}
               alt="UK Mobile Tyres Logo"
-              className="h-10 sm:h-30 w-auto object-contain"
+              className="h-20 sm:h-30 w-auto object-contain"
             />
 
             {/* <span className="text-white font-extrabold tracking-widest text-sm sm:text-lg">
