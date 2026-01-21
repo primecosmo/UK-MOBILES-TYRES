@@ -24,7 +24,7 @@ export default function WhyChooseUs() {
                 className="max-w-4xl mx-auto text-center relative z-10"
             >
                 <h1 className="text-white text-4xl sm:text-5xl font-extrabold">
-                    Why <span className="text-[#00ff99]">Choose Us</span>
+                    Why <span className="text-[#00ff99]">Choose UK Mobile Tyres</span>
                 </h1>
                 <p className="text-white/70 mt-4 max-w-2xl mx-auto">
                     We provide fast, reliable and professional mobile tyre services across
@@ -44,7 +44,7 @@ export default function WhyChooseUs() {
                     {
                         icon: <FaClock />,
                         title: "Fast Response Time",
-                        desc: "Quick arrival and efficient service to get you back on the road safely.",
+                        desc: "Quick call-outs and efficient service to get you safely back on the road in no time.",
                     },
                     {
                         icon: <FaTools />,
@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
                     {
                         icon: <FaShieldAlt />,
                         title: "Safe & Reliable",
-                        desc: "All work is carried out following strict safety and quality standards.",
+                        desc: "Every job is carried out following strict safety standards and quality checks for peace of mind.",
                     },
                     {
                         icon: <FaMapMarkedAlt />,
@@ -64,7 +64,7 @@ export default function WhyChooseUs() {
                     {
                         icon: <FaStar />,
                         title: "Trusted by Customers",
-                        desc: "High customer satisfaction with hundreds of successful tyre fittings.",
+                        desc: "Hundreds of satisfied drivers and a proven track record of high-quality tyre services.",
                     },
                 ].map((item, i) => (
                     <motion.div
