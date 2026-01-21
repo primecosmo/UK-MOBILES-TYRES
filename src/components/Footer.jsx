@@ -1,4 +1,5 @@
 import { FaFacebookF, FaInstagram, FaLinkedin, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -26,10 +27,38 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold text-[#00ff99] mb-4">Services</h3>
           <ul className="space-y-2 text-sm opacity-80">
-            <li>Mobile Tyre Fitting</li>
-            <li>Tyre Replacement</li>
-            <li>Puncture Repairs</li>
-            <li>Wheel Balancing</li>
+            <li>
+              <Link
+                to="/services/mobile-tyre-fitting"
+                className="hover:text-[#00ff99] transition"
+              >
+                Mobile Tyre Fitting
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/services/car-tyre-replacement"
+                className="hover:text-[#00ff99] transition"
+              >
+                Tyre Replacement
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/services/puncture-repair"
+                className="hover:text-[#00ff99] transition"
+              >
+                Puncture Repairs
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/services/wheel-balancing"
+                className="hover:text-[#00ff99] transition"
+              >
+                Wheel Balancing
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -50,11 +79,9 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold text-[#00ff99] mb-4">Follow Us</h3>
           <div className="flex gap-4 text-xl">
-            {[
-              { icon: <FaFacebookF />, link: "#" },
+            {[{ icon: <FaFacebookF />, link: "#" },
               { icon: <FaInstagram />, link: "#" },
-              { icon: <FaLinkedin />, link: "#" },
-            ].map((item, i) => (
+              { icon: <FaLinkedin />, link: "#" }].map((item, i) => (
               <a
                 key={i}
                 href={item.link}
