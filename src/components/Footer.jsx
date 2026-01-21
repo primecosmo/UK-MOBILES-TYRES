@@ -1,5 +1,4 @@
 import { FaFacebookF, FaInstagram, FaLinkedin, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -26,43 +25,12 @@ export default function Footer() {
         {/* SERVICES */}
         <div>
           <h3 className="font-semibold text-[#00ff99] mb-4">Services</h3>
-          import { Link } from "react-router-dom";
-
-<ul className="space-y-2 text-sm opacity-80">
-  <li>
-    <Link
-      to="/services/mobile-tyre-fitting"
-      className="hover:text-[#00ff99] transition"
-    >
-      Mobile Tyre Fitting
-    </Link>
-  </li>
-  <li>
-    <Link
-      to="/services/car-tyre-replacement"
-      className="hover:text-[#00ff99] transition"
-    >
-      Tyre Replacement
-    </Link>
-  </li>
-  <li>
-    <Link
-      to="/services/puncture-repair"
-      className="hover:text-[#00ff99] transition"
-    >
-      Puncture Repairs
-    </Link>
-  </li>
-  <li>
-    <Link
-      to="/services/wheel-balancing"
-      className="hover:text-[#00ff99] transition"
-    >
-      Wheel Balancing
-    </Link>
-  </li>
-</ul>
-
+          <ul className="space-y-2 text-sm opacity-80">
+            <li>Mobile Tyre Fitting</li>
+            <li>Tyre Replacement</li>
+            <li>Puncture Repairs</li>
+            <li>Wheel Balancing</li>
+          </ul>
         </div>
 
         {/* CONTACT */}
