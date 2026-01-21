@@ -7,8 +7,12 @@ import {
   FaCheckCircle,
 } from "react-icons/fa";
 import BookingForm from "../components/BookingForm";
+import { useEffect } from "react";
 
 export default function PunctureRepair() {
+      useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <section className="relative min-h-screen bg-[#0b0c1c] px-6 sm:px-16 pt-28 pb-24 overflow-hidden">
 
