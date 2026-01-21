@@ -49,7 +49,7 @@ export default function Contact() {
         {/* Left info */}
         <motion.div initial={{ opacity: 0, x: -40 }} animate={{ opacity: 1, x: 0 }} className="space-y-8 text-white">
           {[{icon:<FaPhoneAlt />,title:"Call Us",text:"0161-6522335"},
-            {icon:<FaEnvelope />,title:"Email",text:"ukmobiletyress.com"},
+            {icon:<FaEnvelope />,title:"Email",text:"ukmobiletyress@gmail.com"},
             {icon:<FaMapMarkerAlt />,title:"Service Coverage",text:"All across the United Kingdom"}].map((item,i)=>(
             <div key={i} className="flex items-start gap-5 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-[#00ff99]/40 transition">
               <div className="text-2xl text-[#00ff99]">{item.icon}</div>
