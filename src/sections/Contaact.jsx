@@ -48,7 +48,7 @@ export default function Contact() {
       <div className="relative z-10 max-w-6xl mx-auto mt-16 grid lg:grid-cols-2 gap-14">
         {/* Left info */}
         <motion.div initial={{ opacity: 0, x: -40 }} animate={{ opacity: 1, x: 0 }} className="space-y-8 text-white">
-          {[{icon:<FaPhoneAlt />,title:"Call Us",text:"+44 7459 745929"},
+          {[{icon:<FaPhoneAlt />,title:"Call Us",text:"0161-6522335"},
             {icon:<FaEnvelope />,title:"Email",text:"info@ukmobilestyres.co.uk"},
             {icon:<FaMapMarkerAlt />,title:"Service Coverage",text:"All across the United Kingdom"}].map((item,i)=>(
             <div key={i} className="flex items-start gap-5 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-[#00ff99]/40 transition">
