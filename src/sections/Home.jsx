@@ -96,23 +96,23 @@ export default function Home() {
           {[
             {
               icon: <FaCarSide />,
-              title: "Mobile Fitting",
-              desc: "We fit tyres at your home, office or roadside with zero hassle."
+              title: "Mobile Tyre Fitting",
+              desc: "Professional mobile tyre fitting at your home, workplace or roadside anywhere in the UK — fast, convenient and hassle-free."
             },
             {
               icon: <FaTools />,
-              title: "Tyre Replacement",
-              desc: "Wide range of quality tyres installed by trained professionals."
+              title: "Mobile Tyre Replacement",
+              desc: "wide range of quality branded tyres supplied and fitted by fully trained mobile tyre technicians across the UK."
             },
             {
               icon: <FaBolt />,
-              title: "Emergency Puncture Repair",
-              desc: "Fast response for punctures and breakdown tyre emergencies."
+              title: "E24/7 mergency Puncture Repair",
+              desc: "Rapid response for punctures and tyre breakdowns — our mobile experts get you back on the road fast, anywhere in the UK."
             },
             {
               icon: <FaCarSide />,
-              title: "Wheel Balancing",
-              desc: "Smooth, vibration-free driving with precision wheel balancing."
+              title: "Mobile Wheel Balancing",
+              desc: "Ensure smooth, vibration-free driving with professional wheel balancing for improved handling, safety and tyre life."
             },
           ].map((item, i) => (
             <motion.div
