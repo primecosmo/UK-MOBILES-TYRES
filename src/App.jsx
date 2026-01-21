@@ -20,7 +20,7 @@ export default function App() {
         <CustomCursor />
         <WhatsAppButton
           phone="447459745929"
-          message="Hello! I saw your website and would like to connect with You."
+          message="Hi I am looking for Mobile Tyre Services . "
         />
         <Navbar />
 
