@@ -38,10 +38,10 @@ export default function Footer() {
           <h3 className="font-semibold text-[#00ff99] mb-4">Contact</h3>
           <ul className="space-y-3 text-sm opacity-80">
             <li className="flex items-center gap-2">
-              <FaPhoneAlt className="text-[#00ff99]" /> +44 7459 745929
+              <FaPhoneAlt className="text-[#00ff99]" /> 0161-6522335
             </li>
             <li className="flex items-center gap-2">
-              <FaEnvelope className="text-[#00ff99]" /> info@ukmobilestyres.co.uk
+              <FaEnvelope className="text-[#00ff99]" /> ukmobiletyress@gmail.com
             </li>
           </ul>
         </div>
