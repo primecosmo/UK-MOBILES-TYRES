@@ -59,16 +59,15 @@ export default function Home() {
             initial={{ opacity: 0, x: -40 }}
             animate={{ opacity: 1, x: 0 }}
           >
-            UK Mobile Tyres
+            UK Mobiles Tyres
             <br />
             <span className="text-[#00ffff]">
-              Mobile Tyre Experts
+              24/7 Mobile Tyre Fitting & Roadside Repair
             </span>
           </motion.h1>
 
           <p className="text-white/80 mt-5 max-w-xl">
-            Fast, professional and fully mobile tyre services across the UK.
-            We come to your home, office or roadside — saving you time.
+            Fast, reliable mobile tyre services across the UK. We come to your home, workplace or roadside — anytime you need us.
           </p>
 
           {/* CTA BUTTONS */}
