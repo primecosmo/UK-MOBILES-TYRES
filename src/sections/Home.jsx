@@ -106,7 +106,7 @@ export default function Home() {
             },
             {
               icon: <FaBolt />,
-              title: "E24/7 mergency Puncture Repair",
+              title: "24/7 mergency Puncture Repair",
               desc: "Rapid response for punctures and tyre breakdowns — our mobile experts get you back on the road fast, anywhere in the UK."
             },
             {
