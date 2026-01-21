@@ -55,7 +55,7 @@ export default function Home() {
           </motion.p>
 
           <motion.h1
-            className="text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight"
+            className="text-white text-2xl sm:text-3xl lg:text-4xl font-extrabold leading-tight"
             initial={{ opacity: 0, x: -40 }}
             animate={{ opacity: 1, x: 0 }}
           >
