@@ -86,12 +86,12 @@ export default function Contact() {
             {
               icon: <FaPhoneAlt />,
               title: "Call Us",
-              text: "0161-6522335",
+              text: "+44 7000 000000",
             },
             {
               icon: <FaEnvelope />,
               title: "Email",
-              text: "ukmobiletyress@gmail.com",
+              text: "info@ukmobilestyres.co.uk",
             },
             {
               icon: <FaMapMarkerAlt />,
