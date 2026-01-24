@@ -9,7 +9,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-export default function Contaact() {
+export default function Contact() {
   const formRef = useRef();
 
   const [loading, setLoading] = useState(false);
