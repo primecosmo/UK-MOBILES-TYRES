@@ -80,7 +80,7 @@ export default function Contact() {
             className="space-y-8 text-white"
           >
             {[
-              { icon: <FaPhoneAlt />, title: "Call Us", text: "+44 7000 000000" },
+              { icon: <FaPhoneAlt />, title: "Call Us", text: "+44 7459 745929" },
               {
                 icon: <FaEnvelope />,
                 title: "Email",
