@@ -76,7 +76,7 @@ export default function Contact() {
               {
                 icon: <FaPhoneAlt />,
                 title: "Call Us",
-                text: "+44 7000 000000",
+                text: "+44 7459 745929",
               },
               {
                 icon: <FaEnvelope />,
