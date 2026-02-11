@@ -90,7 +90,6 @@ export default function Coverage() {
   "Nottingham",
   "Leicester",
   "Coventry",
-  "Wolverhampton",
   "Derby",
   "Milton Keynes",
   "Reading",
